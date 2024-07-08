@@ -1,0 +1,140 @@
+.pr-super-main-container {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    padding: 100px 0px;
+}
+
+.pr-main-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    flex-direction: column;
+    max-width: 1200px;
+}
+
+.pr-heading h2 {
+    color: #000;
+    text-align: center;
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    font-size: calc(var(--base-width) * 0.03);
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    padding: 0px 0px 60px 0px;
+}
+
+.pr-main-card-container {
+    grid-row-gap: 50px;
+    grid-column-gap: 50px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+}
+
+.pr-card-container {
+    /* width: 80%; */
+    /* margin-top: 50px; */
+    border: 1px solid #DCDCDC;
+    background: #FFF;
+    height: max-content;
+}
+
+.pr-card-content {
+    padding: 25px;
+}
+
+.pr-card-container-even {
+    /* margin-bottom: 50px; */
+    border: 1px solid #DCDCDC;
+    background: #FFF;
+    /* margin-bottom: 50px; */
+    border: 1px solid #DCDCDC;
+    background: #FFF;
+    margin-top: -16%;
+    height: max-content;
+}
+
+.pr-card-container-even-2 {
+    border: 1px solid #DCDCDC;
+    background: #FFF;
+    margin-top: -31%;
+    height: max-content;
+}
+
+.pr-card-content h3 {
+    padding: 15px 0px 0px;
+    color: #000;
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    font-size: calc(var(--base-width) * 0.014);
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+
+}
+
+.card-wrapper {
+    color: #3D3D3D;
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    line-height: 1.8;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    max-height: 6.6em;
+    /* 2 lines * 1.8 (line-height) */
+
+}
+
+.card-wrapper .card-info {
+    padding: 15px 0px 0px 0px;
+}
+
+.readmore-container-btn {
+    padding: 20px 0px 0px 0px
+}
+
+.readmore {
+    border: 1px solid #000;
+    display: inline-flex;
+    padding: 13px 28px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+/* apply on even cards */
+
+.card-wrapper-even {
+    color: #3D3D3D;
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    line-height: 1.8;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    max-height: 4.6em;
+    /* 2 lines * 1.8 (line-height) */
+
+}
+
+.card-wrapper-even .card-info-even {
+    padding: 15px 0px 0px 0px;
+}
+
+.readmore-container-btn-even {
+    padding: 20px 0px 0px 0px
+}
+
+.readmore {
+    border: 1px solid #000;
+    display: inline-flex;
+    padding: 13px 28px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}

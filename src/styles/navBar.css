@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.mainDiv_NavBar {
+    width: 100%;
+    background-color: #2d2d2d;
+    /* padding: 1.5rem 0; */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.innerMainDiv_NavBar {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.subContentTitleMainDiv_NavBar {
+    /* height: 100%; */
+}
+
+
+/* .hoverContentDiv_NavBar{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.hoverContentDiv_NavBar {
+    .subContentTitleMainDiv_NavBar {
+        display: none;
+    }
+} */
+.subContentTitle_NavBar {
+    width: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.contentHeader_NavBar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+/* .contentHeader_NavBar:hover{
+    background-color: black;
+}
+
+.hoverContentDiv_NavBar:hover {
+    .subContentTitleMainDiv_NavBar {
+        display: block;
+        color: black;
+        position: absolute;
+        z-index: 4;
+        background-color: white;
+        top: 100%;
+    }
+} */
+
+.mainLowerDiv_NavBar {
+    width: 100%;
+    background-color: #434343;
+    display: flex;
+    justify-content: center;
+}
+
+.hoverContentDivLower_NavBar {
+    position: relative;
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+
+.contentHeaderLower_NavBar {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contentHeaderLower_NavBar {
+    .subContentTitleMainDiv_NavBar {
+        display: none;
+    }
+}
+
+.contentHeaderLower_NavBar:hover {
+    .subContentTitleMainDiv_NavBar {
+        display: block;
+        color: black;
+        position: absolute;
+        z-index: 4;
+        background-color: white;
+        top: 100%;
+    }
+}

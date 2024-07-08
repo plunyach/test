@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.mainDiv_HomePageWomen {
+    width: 100%;
+    background-color: #EFE7E7;
+    position: relative;
+    z-index: 2;
+}
+
+.innerMianUpperDiv_HomePageWomen {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.innerMainDownDiv_HomePageWomen {
+    width: 40%;
+}
+
+.innerMainDownDiv_HomePageWomen img {
+    width: 100%;
+}
+
+.innerMainDiv_HomePageWomen {
+    width: 100%;
+    display: flex;
+}
+
+.innerMianUpperDiv_HomePageWomen h1 {
+    color: #CE7100;
+    font-family: 'Poppins', sans-serif;
+}
+
+.innerMianUpperDiv_HomePageWomen h2 {
+    font-weight: 100;
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+}
+
+.viewAllBtn_HomePageWomen {
+    padding-top: 4rem;
+}
+
+.viewAllBtn_HomePageWomen button {
+    color: #ffffff;
+    background-color: #CE7100;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+}

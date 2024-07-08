@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  font-family: Gothic1;
+  /* font-family: 'Roboto', sans-serif; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+}
+
+::-webkit-scrollbar {
+  width: 3px; 
+  height: 3px; 
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url("../src/Poppins/Poppins-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: Marvale;
+  src: url("../src/mervale-script/MervaleScript-Regular.otf");
+}
+
+@font-face {
+  font-family: Gothic1;
+  src: url("../src/century-gothic/Century\ Gothic.ttf");
+}
+
+@font-face {
+  font-family: Gothic_Bold;
+  src: url("../src/century-gothic/CenturyGothic.ttf");
+}
+
+@media (max-width: 768px) {
+  /* CSS rules for small screens */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Custom Loader */
+
+.gallery-image {
+  height: 400px; /* Set a fixed height for the images */
+  width: auto; /* Allow the width to adjust based on the aspect ratio */
+  object-fit: cover; /* Cover the container while maintaining aspect ratio */
+}
+.cart-number,.wishlist-number
+{
+  background-color: #771e03;
+  color: white;
+  margin-left: 5px;
+  border-radius: 50%; /* Set border-radius to 50% */
+  width: 20px; /* Adjust width and height as needed */
+  height: 20px;
+  font-size: 10px;
+  text-align: center;
+  display: inline-block; /* Ensure it behaves as a block element */
+  line-height: 20px;
+  margin-bottom: 40px; 
+}
+
+/* import toast, { Toaster } from "react-hot-toast"; */
+/* toast.success("Copied User Address!", {
+  style: {
+    borderRadius: "6px",
+    background: "#fff",
+  },
+}); */

@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.mainDiv_TopProducts {
+    width: 100%;
+    display: flex;
+    /* height: 100vh; */
+    
+}
+.innerMainDiv_TopProducts{
+    height:100%;
+    width: 100%;
+    display: flex;
+    align-items:center;
+  
+    justify-content: center;
+ 
+    background-size:cover;
+    align-content: center;
+    background-position: center;
+    
+}
+.innerHeadingBtn_TopProducts{
+    height: 40%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 2rem;
+}
+.innerHeadingBtn_TopProducts h1{
+    color: #ffffff;
+}
+.showNowBtn_TopProducts {
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items:end;
+   /* border:1px solid red; */
+   height:100%;
+margin-top: 100%;
+}
+
+.showNowBtn_TopProducts button {
+    padding: 0.2rem;
+    border: 2px solid #ffffff;
+    background-color: transparent;
+    color: white;
+    /* text-transform: uppercase; */
+}
+
+/* Small devices (phones, less than 768px) */
+@media (max-width: 767px) {
+    .innerMainDiv_TopProducts, .innerHeadingBtn_TopProducts {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .innerHeadingBtn_TopProducts h1 {
+        font-size: 4vw; /* Adjust font size */
+    }
+    .showNowBtn_TopProducts button {
+        width: 55px !important; /* Adjust button width */
+        font-size: 8.5px !important; /* Adjust font size */
+
+    }
+
+    .mainDiv_TopProducts{
+        height: fit-content !important;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .innerMainDiv_TopProducts, .innerHeadingBtn_TopProducts {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .innerHeadingBtn_TopProducts h1 {
+        font-size: 3vw; /* Adjust font size */
+    }
+    .showNowBtn_TopProducts button {
+        width: 50%; /* Adjust button width */
+        font-size: 2.5vw; /* Adjust font size */
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .innerMainDiv_TopProducts, .innerHeadingBtn_TopProducts {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .innerHeadingBtn_TopProducts h1 {
+        font-size: 2.5vw; /* Adjust font size for larger screens */
+    }
+    .showNowBtn_TopProducts button {
+        width: 40%; /* Adjust button width */
+        font-size: 2vw; /* Adjust font size */
+    }
+}

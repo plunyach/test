@@ -1,0 +1,167 @@
+
+.aboutus-main-container1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aboutus-main-container{
+    max-width: 1250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 80px;
+}
+.aboutus-sub-main-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F8F8F8; 
+    flex-direction: row;
+    padding: 70px;
+}
+
+.aboutus-sub-main-container-bottom {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F8F8F8; 
+    flex-direction: column;
+}
+
+.aboutus-sub-main-internal-container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.aboutus-sub-main-container1{
+    /* height: 100vh; */
+    width: 100%;
+    background: #F8F8F8;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+   
+}
+
+.aboutus-heading{
+    color: #000;
+    font-family: Century Gothic;
+    font-size: calc(var(--base-width) * 0.03);
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    padding: 15px;
+}
+
+.aboutus-into-txt{
+    color: #474747;
+    text-align: center;
+    font-family: Century Gothic;
+    font-size: calc(var(--base-width) * 0.015);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.aboutus-sub-main-container2{
+    max-width: 1150px;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.boutus-sub-main-internal-container2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.aboutus-heading-founfers{
+    color: #000;
+    font-family: Century Gothic;
+    font-size: calc(var(--base-width) * 0.03);
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding:50px 0px 50px 0px;
+    text-transform: capitalize;
+}
+
+.intro-txt{
+    color: #3C3C3C;
+    font-family: Century Gothic;
+    font-size: calc(var(--base-width) * 0.014);
+   
+    font-style: italic;
+    font-weight: 400;
+    line-height: 199.607%;
+    /* text-transform: lowercase; */
+    font-size: calc(var(--base-width) * 0.012);
+    text-align: center;
+    font-weight: 400;
+    line-height: 199.607%; /* 39.921px */
+    padding-top: 25px;
+}
+
+.anil-name-txt, .vikas-name-txt{
+    padding: 20px;
+    color: #000;
+    font-family: Century Gothic;
+    font-size: calc(var(--base-width) * 0.018);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.vikas-img{
+    padding-top: 60px;
+}
+
+.introduction-txt{
+    color: #000;
+    text-align: center;
+    font-family: Century Gothic;
+    font-size: calc(var(--base-width) * 0.018);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.fashion-txt{
+    display: flex;
+    align-items: center;
+    color: #3A3A3A;
+    text-align: center;
+    font-family: Century Gothic;
+    font-size: 34.036px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.sizeup-txt-btm{
+    color: #3A3A3A;
+    text-align: center;
+    font-family: Century Gothic;
+    font-size: 34.036px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}

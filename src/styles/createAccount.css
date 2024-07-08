@@ -1,0 +1,327 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.mainDiv_CreateAccount {
+    width: 100%;
+}
+
+.innerMainDiv_CreateAccount {
+    width: 100%;
+}
+
+.toolBar_CreateAccount {
+    width: 100%;
+    padding: 2rem 0;
+    display: flex;
+    align-items: center;
+}
+
+.backArrow_CreateAccount {
+    width: 15%;
+    display: flex;
+    justify-content: center;
+}
+
+.logo_CreateAccount {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}
+
+.lowerSignContent_CreateAccount {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.lowerSignContentMainDiv_CreateAccount {
+    /* border: 1px solid red; */
+    width: 40%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 5px rgb(183, 183, 183);
+    border-radius: 5px;
+}
+
+.signInHeader_CreateAccount {
+    padding: 1rem;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.phone-email_CreateAccount {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    width: 100%;
+
+}
+
+.phone_CreateAccount {
+    /* border: 1px solid red; */
+    width: 47%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.phone_CreateAccount button {
+    border: none;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    background-color: #2D2D2D;
+    color: #FBFBFB;
+    transition: all 1s ease;
+}
+
+.email_CreateAccount button {
+    border: none;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+
+.email_CreateAccount {
+    /* border: 1px solid blue; */
+    width: 47%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.email_CreateAccount button:focus {
+    background-color: #2D2D2D;
+    color: #FBFBFB;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    transition: all 1s ease;
+}
+
+.phone_CreateAccount button:focus {
+    background-color: #2D2D2D;
+    color: #FBFBFB;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    transition: all 1s ease;
+}
+
+.phone-emailInner_CreateAccount {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #EEEEEE;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.label-input_CreateAccount {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.label_CreateAccount h1 {
+    color: #676767;
+}
+
+.inputDiv_CreateAccount {
+    width: 100%;
+    border-bottom: 1px solid #777777;
+    font-family: 'Poppins', sans-serif;
+}
+
+.input_CreateAccount {
+    width: 100%;
+    margin-top: 1rem;
+    border: none;
+    line-height: 2;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    color: #777777;
+}
+
+.input_CreateAccount:focus {
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.getOTPBtn_CreateAccount {
+    width: 100%;
+    /* padding: 1rem; */
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.getOTPBtn_CreateAccount button {
+    width: 80%;
+    border: none;
+    background-color: #2D2D2D;
+    color: white;
+    font-weight: 500;
+    font-family: Poppins;
+    transition: all 0.7s ease;
+}
+
+.getOTPBtn_CreateAccount button:hover {
+    background-color: #EEEEEE;
+    color: #676767;
+    transition: all 0.7s ease;
+    cursor: pointer;
+}
+
+.createAccount_CreateAccount {
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.label_CreateAccount h1 {
+    font-weight: 100;
+    color: #676767;
+    font-family: 'Poppins', sans-serif;
+}
+
+.createAccount_CreateAccount span {
+    font-weight: 100;
+    color: #676767;
+}
+
+.createAccount_CreateAccount a {
+    cursor: pointer;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+
+.inputOtpDiv_CreateAccount {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* width: 90%; */
+}
+
+.inputOtpDiv_CreateAccount input {
+    width: 50px;
+    border: none;
+    border-bottom: 1px solid;
+    text-align: center;
+    font-size: 30px;
+}
+
+.inputOtpDiv_CreateAccount input:focus {
+    outline: none;
+    border: none;
+    border-bottom: 2px solid blue;
+}
+
+
+@media (max-width: 768px) {
+    /* Adjust styles for small screens */
+    .lowerSignContentMainDiv_CreateAccount {
+        /* Adjust width for smaller screens */
+        width: 100% ! important; 
+    }
+
+    .signInHeader_CreateAccount h1 {
+        font-size: 35px ! important; 
+    }
+    .label_CreateAccount  h1 {
+        font-size: 15px ! important; 
+    }
+
+    .phone-email_SignInMobile {
+        /* Adjust layout for smaller screens */
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .phone-emailInner_SignInMobile {
+        /* Adjust layout for smaller screens */
+        width: 100%;
+        max-width: 300px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .phone_SignIMobile, .email_SignIMobile {
+        /* Adjust button styles for smaller screens */
+        width: 45%; /* Adjust button width */
+        margin-bottom: 10px; /* Add margin between buttons */
+        height: 64.184px ! important; 
+        
+    }
+    .phone_SignIMobile button {
+        font-size: 21px ! important; 
+        
+    }
+    .email_SignIMobile button {
+        font-size: 21px ! important; 
+        
+    }
+    .label_SignInMobile h1 {
+        font-size: 16px ! important; 
+
+    }
+
+    .label-input_SignInMobile {
+        /* Adjust padding for smaller screens */
+        padding: 20px;
+    }
+
+    .input_CreateAccount {
+        /* Adjust input styles for smaller screens */
+        width: 100%; /* Make inputs full width */
+        margin-bottom: 10px; 
+        font-size: 18.697px ! important; 
+    }
+
+    .getOTPBtn_SignInMobile button {
+        /* Adjust button styles for smaller screens */
+       
+        font-size: 17.944px ! important; 
+        height: 51.502px ! important; 
+    }
+
+    .selectMainRadioDiv_MyOrderPage_MyProfile  {
+        /* Adjust font size for smaller screens */
+        height: 43.36px ! important; 
+    }
+    .selectMainRadioDiv_MyOrderPage_MyProfile h2 {
+        /* Adjust font size for smaller screens */
+        font-size: 13.12px ! important; 
+    }
+    .getOTPBtn_CreateAccount button{
+        font-size: 15.944px  ! important; 
+        height: 42.502px  ! important; 
+    }
+    .createAccount_CreateAccount h3 {
+        /* Adjust font size for smaller screens */
+        font-size: 13.12px ! important; 
+    }
+}

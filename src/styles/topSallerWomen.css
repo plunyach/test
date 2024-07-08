@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.mainDiv_TopSallerWomen {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 2rem 0;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+}
+
+.innerMainDiv_TopSallerWomen {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.innermainUpperDiv_TopSallerWomen {
+    width: 80%;
+    display: flex;
+    text-align: center;
+    padding: 4rem 0;
+    align-items: center;
+}
+
+.horizantalLine_TopSallerWomen {
+    width: 40%;
+    background-color: #D57800;
+    height: 1px;
+}
+
+.horizantalLineName_TopSallerWomen {
+    width: 20%;
+}
+
+.horizantalLineName_TopSallerWomen h1 {
+    color: #D57800;
+    font-family: 'Poppins', sans-serif;
+}
+
+.topSallerImgDiv {
+    transition: all 1s ease ;
+}
+
+.topSallerImgDiv {
+    .topSallerContentDiv_TopSallerWomen {
+        display: none;
+    }
+}
+
+.topSallerImgDiv:hover {
+    .topSallerContentDiv_TopSallerWomen {
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+        height: 100%;
+        padding: 0rem 1rem;
+        background-color: #262626;
+        opacity: 0.5;
+        animation: backgroundAnim 0.29s ease forwards;
+        cursor: pointer;
+    }
+
+    .topSallerContentDiv_TopSallerWomen h1,
+    .topSallerContentDiv_TopSallerWomen h2,
+    .topSallerContentDiv_TopSallerWomen h3 {
+        color: white;
+        line-height: 1.4;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .topSallerContentDiv_TopSallerWomen h3 {
+        font-weight: 100;
+        font-family: 'Poppins', sans-serif;
+    }
+}
+
+@keyframes backgroundAnim{
+    0%{
+        opacity: 0;
+    }
+    20%{
+        opacity: 0.1;
+    }
+    40%{
+        opacity: 0.2;
+    }
+    60%{
+        opacity: 0.3;
+    }
+    80%{
+        opacity: 0.4;
+    }
+    100%{
+        opacity: 0.5;
+    }
+} 
+
+.viewAllBtn_TopSallerWomen{
+    padding-top: 4rem;
+}
+
+.viewAllBtn_TopSallerWomen button{
+    color: #ffffff;
+    background-color:#CE7100;
+    border: none;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+}

@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.mainDiv_Testimonial {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 0;
+  background-color: #efe7e7;
+  overflow: hidden;
+}
+
+.InnerUpperMainDiv_TestiMonila {
+  text-align: center;
+}
+
+.InnerUpperMainDiv_TestiMonila h1 {
+  text-transform: capitalize;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+
+.InnerUpperMainDiv_TestiMonila h2 {
+  font-weight: 100;
+  width: 35%;
+  line-height: 1.8;
+  text-transform: capitalize;
+}
+
+.InnerLowerMainDiv_Testimonial {
+  width: 100%;
+  padding: 4rem 0;
+  
+}
+
+.aliceMainDiv_Testimonial {
+  width: 100%;
+  /* background-color: #ffffff; */
+  padding: 1.5rem;
+  display: flex;
+  justify-content: center;
+  /* position: relative; */
+  /* box-shadow: 0 0 10px 5px black; */
+}
+
+.aliceInnerMainDiv_Testimonial {
+  /* max-width: 860px;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 1.5rem;
+    position: relative;
+    margin: auto;
+    box-shadow: 0px 0px 24px -13px black; */
+  max-width: 860px;
+  width: 100%;
+  min-height: 300px;
+  background-color: #ffffff;
+  padding: 1.5rem;
+  position: relative;
+  margin: auto;
+  box-shadow: 7px 7px 1px #cdcaca, 8px 8px 10px #000;
+  border-radius: 6px;
+}
+
+.aliceContent_Testimonial h1 {
+  font-weight: 100;
+  text-transform: capitalize;
+}
+
+.aliceContentLowerDiv_Testimonial {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 1rem;
+}
+
+.aliceContentLowerDiv_Testimonial h2 {
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.aliceContentLowerDiv_Testimonial img {
+  padding: 0 0.3rem;
+}
+
+.alice-carousel__dots-item:not(.__custom) {
+  border-radius: 0 !important;
+  width: 35px !important;
+  height: 6px !important;
+  background-color: #bbbbbb !important;
+}
+
+.alice-carousel__dots-item:not(.__custom):hover,
+.alice-carousel__dots-item:not(.__custom).__active {
+  background-color: black !important;
+}
+
+.aliceContentUpperDiv_Testimonial h1 {
+  line-height: 1.5;
+  font-family: "Poppins", sans-serif;
+}
+
+.social_Footer img {
+  transition: all 0.5s ease;
+}
+
+.social_Footer img:hover {
+  transform: scale(1.2);
+}
+ 
+
+@media (max-width: 767px) {
+  .InnerUpperMainDiv_TestiMonila {
+    text-align: center !important;
+    width: 100% !important;
+  }
+
+  .InnerUpperMainDiv_TestiMonila h1 {
+    font-size: 18px !important;
+  }
+
+  .InnerLowerMainDiv_Testimonial {
+    padding: 0 !important;
+  }
+
+  .aliceContentUpperDiv_Testimonial {
+    margin-top: 0.5rem;
+  }
+
+  .aliceContentUpperDiv_Testimonial h1 {
+    font-size: 9px !important;
+  }
+
+  .aliceContentLowerDiv_Testimonial h2 {
+    font-size: 8px !important;
+  }
+
+  .aliceImage_Testimonial {
+    display: flex;
+    justify-content: center;
+  }
+ 
+}
+@media (max-width:766px) and (min-width:600px){
+  .aliceInnerMainDiv_Testimonial {
+    min-height: 230px !important;
+  }
+}
+@media (max-width:600px) and (min-width:320px){
+  .aliceInnerMainDiv_Testimonial {
+    min-height: 200px !important;
+  }
+}
+
+@media (max-width: 1024px) {
+  .aliceInnerMainDiv_Testimonial {
+    min-height: 380px ;
+}
+}

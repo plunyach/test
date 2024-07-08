@@ -1,0 +1,96 @@
+.cp-main-container>* {
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+}
+.cp-main-container {
+    width: 100%;
+    background: #F8F8F8;
+}
+
+.cp-sub-main-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 110px 10px;
+}
+
+.cp-heading {
+    font-size: calc(var(--base-width) * 0.03)!important;
+    padding-bottom: 35px;
+    color: #000;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.cp-text-content-1 {
+    color: #000;
+    font-size: calc(var(--base-width) * 0.018);
+    font-weight: 500;
+    line-height: 210.5%;
+    padding: 0px 0 20px 0;
+    border-bottom: 1px solid #9C9C9C;
+}
+.cp-text-content-2{
+    color: #000;
+    font-size: calc(var(--base-width) * 0.012);
+    font-weight: 500;
+    padding: 20px 0 0px 0;
+    line-height: 210.5%;
+}
+.cp-text-content {
+    color: #000;
+    font-size: calc(var(--base-width) * 0.011);
+    font-weight: 400;
+    line-height: 210.5%;
+    padding: 20px 0 0px 0;
+}
+.cp-text-content-dark{
+    color: #141414;
+    font-size: calc(var(--base-width) * 0.011);
+    font-weight: 600;
+    line-height: 210.5%;
+    padding: 20px 0 0px 0;
+}
+.cp-text-content-span{
+    color: #141414;
+    font-size: calc(var(--base-width) * 0.011);
+    line-height: 210.5%;
+   
+}
+.cp-text-content-demo{
+    color: #000;
+    font-size: calc(var(--base-width) * 0.011);
+    font-weight: 400;
+    line-height: 210.5%;
+    padding: 20px 0 0px 0px;
+}
+.cp-text-content a, .cp-content a{
+    color: #1F81DB;
+    text-decoration: underline;
+}
+.cp-text-container {
+    padding: 70px;   
+    background: #FFF;    
+}
+.cp-sub-container:not(:last-child){
+    margin-bottom: 50px;
+}
+
+.cp-content-heading {
+    color: #000;
+    font-size: calc(var(--base-width) * 0.016);
+    font-weight: 400;
+    text-transform: capitalize;
+    padding: 30px;
+}
+
+
+@media (max-width: 1024px) and (min-width: 767px){
+    .cp-sub-main-container {
+        padding: 90px 20px !important;
+    }
+}
+@media (max-width: 767px){
+    .cp-sub-main-container {
+        padding: 50px 20px !important;
+    }
+}

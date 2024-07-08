@@ -1,0 +1,504 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.UpperMainDiv_ShippingDetails {
+    background: #f5f5f5;
+    padding-bottom: 2rem;
+    font-family: Gothic1;
+}
+
+.toolBar_ShappingDetails {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.downToolBar_ShippingDetails {
+    position: sticky;
+    z-index: 2;
+    width: 100%;
+    height: 1vh;
+    top: 10vh;
+    background: #f5f5f5;
+}
+
+.mainDiv_ShippingDetails {
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Gothic1;
+}
+
+.breadCrumCartMainDiv_ShippingDetails {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.breadCrumInner_ShippingDetails {
+    display: flex;
+    align-items: center;
+}
+
+.numberBreadCrumMain_ShippingDetails {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid;
+}
+
+.breadCrumInner_ShippingDetails h3 {
+    font-weight: 100;
+}
+
+.cartMainPage_ShippingDetails {
+    width: 100%;
+    /* display: flex; */
+    /* justify-content: center; */
+    background: #f5f5f5;
+    padding: 50px 0;
+}
+
+.cartInnerMainDivPage_ShippingDetails {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.carProductListMainDiv_ShippingDetails {
+    /* border: 1px solid blue; */
+    background-color: #ffffff;
+    padding: 2rem;
+}
+
+.shippingHeaderMainDiv_ShippingDetails h1 {
+    font-weight: 600;
+}
+
+.selectUpperMainDivMain_ShippingDetails {
+    width: 100%;
+}
+
+.selectUpperMainDivMainLower_ShippingDetails {
+    width: 100%;
+}
+
+.selectUpperMainDiv_ShippingDetails {
+    width: 100%;
+    display: flex;
+    padding: 1rem 0;
+    justify-content: space-between;
+}
+
+.selectUpperMainDivLower_ShippingDetails {
+    width: 100%;
+    display: flex;
+    padding: 1rem 0;
+    justify-content: space-between;
+}
+
+.selectInnerMainDiv_ShippingDetails {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+}
+
+.ShippingDetailsInnerMainDiv_ShippingDetails {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.selectInnerMainDivLower_ShippingDetails {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.selectMainDiv_ShippingDetails {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    /* margin-left: 2%; */
+    padding: 0 1rem;
+    cursor: pointer;
+    border: 1px solid#C0C0C0;
+    color: #C0C0C0;
+    width: 100% !important;
+}
+
+.selectMainDivLower_ShippingDetails {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    /* margin-left: 2%; */
+    padding: 0 1rem;
+    cursor: pointer;
+    border: 1px solid#C0C0C0;
+    color: #C0C0C0;
+    width: 80% !important;
+}
+
+.selectMainInputDiv_ShippingDetails {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    /* margin-left: 2%; */
+    padding: 0 1rem;
+    cursor: pointer;
+    border: 1px solid#C0C0C0;
+    color: #C0C0C0;
+    width: 100% !important;
+}
+
+.selectMainInputDiv_ShippingDetails input {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.selectMainInputDiv_ShippingDetails input:focus {
+    outline: none;
+}
+
+.shippingDetailsMainInputDiv_ShippingDetails {
+    background-color: white;
+    padding: 0 1rem;
+    cursor: pointer;
+    border: 1px solid#C0C0C0;
+    color: #C0C0C0;
+    width: 100% !important;
+}
+
+
+
+.shippingDetailsMainInputDiv_ShippingDetails input {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.shippingDetailsMainInputDiv_ShippingDetails input:focus {
+    outline: none;
+}
+
+.addBillingAddress_ShippingDetails h1 {
+    color: #262626;
+    font-weight: 100;
+}
+
+.addBillingAddress_ShippingDetails span {
+    color: #C0C0C0;
+    font-weight: 100;
+}
+
+
+
+
+.selectUl_ShippingDetails {
+    background-color: white;
+    margin-top: 2%;
+    overflow-y: auto;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    box-shadow: 0 0 5px #C7C7C7;
+    cursor: pointer;
+    max-height: 50vh;
+    z-index: 1;
+
+}
+
+.selectUl_ShippingDetails li {
+    padding: 0.5rem;
+    border-bottom: 1px solid #C7C7C7;
+    z-index: 5;
+}
+
+.selectUl_ShippingDetails li:hover {
+    color: white;
+    background-color: #C7C7C7;
+}
+
+.selectUlLower_ShippingDetails {
+    background-color: white;
+    margin-top: 2%;
+    overflow-y: auto;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    box-shadow: 0 0 5px #C7C7C7;
+    cursor: pointer;
+    max-height: 50vh;
+    z-index: 1;
+}
+
+
+
+.selectUlLower_ShippingDetails li {
+    padding: 0.5rem;
+    border-bottom: 1px solid #C7C7C7;
+    position: relative;
+    z-index: 1;
+}
+
+.selectUlLower_ShippingDetails li:hover {
+    color: white;
+    background-color: #C7C7C7;
+}
+
+
+
+.priceDetailMainDiv_ShippingDetails {
+    width: 38%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 80vh;
+    /* border: 1px solid green; */
+    /* background-color: white; */
+    position: sticky;
+    top: 11vh;
+}
+
+.lastDivConfirm_ShippingDetails {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.backToCart_ShippingDetails {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.backToCart_ShippingDetails img {
+    width: 10%;
+}
+
+.backToCart_ShippingDetails h1 {
+    padding-left: 0.3rem;
+}
+
+.confrimAddress_ShippingDetails {
+    width: 50%;
+    display: flex;
+    justify-content: end;
+}
+
+.confrimAddress_ShippingDetails button {
+    border: none;
+    background-color: #262626;
+    color: white;
+
+}
+
+
+
+
+
+.priceDetailsUpperMainDiv_ShippingDetails {
+    /* height: 60vh; */
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+
+.priceDetailUpperInnerDiv_ShippingDetails {
+    display: flex;
+    flex-direction: column;
+}
+
+.pricingDetailsDiv_ShippingDetails {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0;
+}
+
+.PriceDetailsHeader_ShippingDetails h1 {
+    font-weight: 100;
+    font-family: Gothic1;
+
+}
+
+.priceDiv_ShippingDetails {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1.5rem;
+}
+
+.discountDiv_ShippingDetails {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1.5rem;
+}
+
+
+.deliveryDiv_ShippingDetails {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1.5rem;
+}
+
+.couponDiv_ShippingDetails {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.couponDiv_ShippingDetails {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.subTotalDiv_ShippingDetails {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1.5rem;
+    border-top: 2px solid #AEAEAE;
+    ;
+}
+
+.pricingDetailsDiv_ShippingDetails h2 {
+    font-weight: 550;
+    color: #898989;
+    font-family: Gothic1;
+}
+
+.subTotalDiv_ShippingDetails h1 {
+    font-family: Gothic_Bold;
+}
+
+.buyNowBtn_ShippingDetails button {
+    width: 100%;
+    border: none;
+    background-color: #2D2D2D;
+    color: white;
+    font-family: Gothic1;
+}
+
+.couponInputDiv_ShippingDetails {
+    height: 15vh;
+    padding: 0rem 2rem 0rem 2rem;
+    background-color: #fff;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.couponInputDiv_ShippingDetails h1 {
+    font-family: Gothic_Bold;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding: 0.5rem 0;
+}
+
+.input_Btn_ShippingDetails {
+    width: 100%;
+}
+
+.input_Btn_ShippingDetails input {
+    width: 65%;
+    height: 100%;
+    border: none;
+    background: #F0F0F0;
+    padding-left: 1rem;
+    font-family: Gothic1;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.input_Btn_ShippingDetails input:focus {
+    outline: none;
+}
+
+.input_Btn_ShippingDetails button {
+    width: 28%;
+    height: 100%;
+    border: none;
+    background: #2D2D2D;
+    color: #fff;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+    font-family: Gothic1;
+}
+
+.shippingAddressMainDiv_ShippingDetails {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 95%;
+}
+
+.ShippingAddressMainUpper_ShippingDetails {
+    display: flex;
+    border: 1px solid #CDCDCD;
+    justify-content: space-between;
+    margin-top: 2rem;
+    padding: 1rem;
+}
+
+.ShippingAddressMainMiddle_ShippingDetails {
+    display: flex;
+    border: 1px solid #CDCDCD;
+    justify-content: space-between;
+    margin-top: 2rem;
+    padding: 1rem;
+}
+
+.shippingAddressInnerDiv_ShippingDetials {
+    width: 70%;
+}
+
+.shippingAddressInnerDiv_ShippingDetials h1,
+.shippingAddressInnerDiv_ShippingDetials h2,
+.shippingAddressInnerDiv_ShippingDetials h1,
+.shippingAddressInnerDiv_ShippingDetials h2,
+.ShippingAddressMainLower_ShippingDetails h2 {
+    text-transform: capitalize;
+    line-height: 2;
+}
+
+.ShippingAddressMainLower_ShippingDetails {
+    padding-top: 1rem;
+}
+
+
+@media (max-width: 600px) {
+    .shippingAddressMainDiv_ShippingDetails {
+        height: 75%;
+    }
+
+    .confrimAddress_ShippingDetails button {
+        width: 98.75px !important;
+        height: 30.7px !important;
+        font-size: 10px !important;
+    }
+
+    .confrimAddress_ShippingDetails p {
+        font-size: 9px !important;
+    }
+}

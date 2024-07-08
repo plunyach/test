@@ -1,0 +1,104 @@
+.faq-main-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #F8F8F8;
+    
+}
+
+/* .faq-sub-main-container {
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+} */
+
+.faq-heading {
+    padding: 50px;
+    color: #000;
+    text-align: left;
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    font-size: calc(var(--base-width) * 0.03);
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 40px;
+}
+.faq-heading-1 {
+    padding: 30px 60px;
+    color: #000;
+    text-align: left;
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    font-size: calc(var(--base-width) * 0.018);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.faq-text-content {
+    color: #000;
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    font-size: calc(var(--base-width) * 0.011);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 210.5%;
+    padding: 0px 60px 20px 60px;
+    text-align: left;
+}
+
+.faq-text-content a {
+    color: #1F81DB;
+    text-decoration: underline;
+}
+
+.faq-content a {
+    color: #1F81DB;
+    text-decoration: underline;
+}
+
+.faq-text-content li{
+    color: #000;
+    font-weight: 600;
+}
+
+.faq-sub-container {
+    max-width: 1200px;
+    display: grid;
+    grid-row-gap: 40px;
+    margin-bottom: 50px;
+}
+
+.faq-text-container {
+    padding: 20px;
+    background: #FFF;
+}
+
+.faq-content-heading {
+    color: #000;
+    text-align: center;
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    font-size: calc(var(--base-width) * 0.018);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    padding: 30px;
+}
+
+.faq-content {
+    color: #0A0A0A;
+    text-align: center;
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    font-size: calc(var(--base-width) * 0.011);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%;
+    text-transform: capitalize;
+    padding: 30px;
+}

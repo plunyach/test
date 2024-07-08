@@ -1,0 +1,441 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.UpperMainDiv_PaymentPages {
+    background: #f5f5f5;
+    padding-bottom: 2rem;
+    font-family: Gothic1;
+}
+
+.toolBar_ShappingDetails {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.downToolBar_PaymentPages {
+    position: sticky;
+    z-index: 2;
+    width: 100%;
+    height: 1vh;
+    top: 10vh;
+    background: #f5f5f5;
+}
+
+.mainDiv_PaymentPages {
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Gothic1;
+}
+
+.breadCrumCartMainDiv_PaymentPages {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.breadCrumInner_PaymentPages {
+    display: flex;
+    align-items: center;
+}
+
+.numberBreadCrumMain_PaymentPages {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid;
+}
+
+.breadCrumInner_PaymentPages h3 {
+    font-weight: 100;
+}
+
+.cartMainPage_PaymentPages {
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    background: #f5f5f5;
+}
+
+.cartInnerMainDivPage_PaymentPages {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.carProductListMainDiv_PaymentPages {
+    width: 60%;
+    /* border: 1px solid blue; */
+    background-color: #ffffff;
+    /* padding: 2rem; */
+}
+
+.shippingHeaderMainDiv_PaymentPages {
+    padding: 1rem;
+}
+
+
+.shippingHeaderMainDiv_PaymentPages h1 {
+    font-weight: 100;
+}
+
+
+
+.priceDetailMainDiv_PaymentPages {
+    width: 38%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: max-content;
+    /* border: 1px solid green; */
+    /* background-color: white; */
+    position: sticky;
+    top: 11vh;
+}
+
+.lastDivConfirm_PaymentPages {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f5f5f5;
+    padding: 1rem;
+}
+
+.backToCart_PaymentPages {
+    display: flex;
+    width: 50%;
+    align-items: start;
+    flex-direction: column;
+}
+
+.backToCart_PaymentPages img {
+    width: 10%;
+}
+
+.backToCart_PaymentPages h1 {
+    padding-left: 0.3rem;
+}
+
+.confrimAddress_PaymentPages {
+    width: 50%;
+    display: flex;
+    justify-content: end;
+}
+
+
+.confrimAddress_PaymentPages button {
+    border: none;
+    background-color: #262626;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.ValidateBtnDiv_PaymentPages {
+    width: 50%;
+    display: flex;
+    justify-content: start;
+    padding-top: 1rem;
+}
+
+.ValidateBtnDiv_PaymentPages button {
+    border: none;
+    background-color: #262626;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+
+
+.priceDetailsUpperMainDiv_PaymentPages {
+    height: 60vh;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+
+.priceDetailUpperInnerDiv_PaymentPages {
+    display: flex;
+    flex-direction: column;
+}
+
+.pricingDetailsDiv_PaymentPages {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0;
+}
+
+.PriceDetailsHeader_PaymentPages h1 {
+    font-weight: 100;
+    font-family: Gothic1;
+
+}
+
+.priceDiv_PaymentPages {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1.5rem;
+}
+
+.discountDiv_PaymentPages {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1.5rem;
+}
+
+
+.deliveryDiv_PaymentPages {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1.5rem;
+}
+
+.couponDiv_PaymentPages {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.couponDiv_PaymentPages {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.subTotalDiv_PaymentPages {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1.5rem;
+    border-top: 2px solid #AEAEAE;
+    ;
+}
+
+.pricingDetailsDiv_PaymentPages h2 {
+    font-weight: 550;
+    color: #898989;
+    font-family: Gothic1;
+}
+
+.subTotalDiv_PaymentPages h1 {
+    font-family: Gothic_Bold;
+}
+
+.buyNowBtn_PaymentPages button {
+    width: 100%;
+    border: none;
+    background-color: #2D2D2D;
+    color: white;
+    font-family: Gothic1;
+}
+
+.shippingAddressMainDiv_PaymentPages {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 70vh;
+    padding: 1rem 2rem 2rem 2rem;
+    /* padding-top: 3rem; */
+}
+
+.paymentGatwayName_PaymentPages {
+    border-bottom: 2px solid #B5B5B5;
+    width: 100%;
+    padding: 1rem 2rem 0 2rem;
+}
+
+.paymentGatwayNameInner_PaymentPages {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.paymentGatwayNameInner_PaymentPages h2 {
+    cursor: pointer;
+}
+
+.creditCardDetails_PaymentPages {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.creditCardDetailsInner_PaymentPages {
+    width: 100%;
+    background-color: #f5f5f5;
+    padding: 1rem;
+}
+
+.cardHolderName_PaymentPages {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.cardHolderName_PaymentPages h2,
+.cardNumberName_PaymentPages h2,
+.cardExpery_CVV_PaymentPages h2 {
+    font-weight: 600;
+}
+
+.cardHolderName_PaymentPages input {
+    width: 100%;
+    /* border: 1px solid red; */
+    padding: 0.8rem;
+    color: #515151;
+}
+
+.cardHolderName_PaymentPages input:focus {
+    outline: none;
+}
+
+.cardNumberName_PaymentPages {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0;
+}
+
+.cardExpery_CVV_PaymentPages {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+.cardNumberName_PaymentPages input,
+.experyMonth_PaymentPage input,
+.experyYear_PaymentPage input,
+.cvv_PaymentPage input {
+    width: 100%;
+    /* border: 1px solid red; */
+    padding: 0.8rem;
+    color: #515151;
+}
+
+.cardNumberName_PaymentPages input:focus,
+.experyMonth_PaymentPage input:focus,
+.experyYear_PaymentPage input:focus,
+.cvv_PaymentPage input:focus {
+    outline: none;
+}
+
+.experyMonth_PaymentPage,
+.experyYear_PaymentPage,
+.cvv_PaymentPage {
+    width: 30%;
+}
+
+.backToCart_PaymentPages h1,
+.backToCart_PaymentPages h2 {
+    font-weight: 600;
+}
+
+.selectMainDiv_PaymentPages {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    /* margin-left: 2%; */
+    padding: 0 1rem;
+    cursor: pointer;
+    /* border: 1px solid#C0C0C0; */
+    color: #C0C0C0;
+    width: 100% !important;
+}
+
+.selectUl_PaymentPages {
+    background-color: white;
+    margin-top: 2%;
+    overflow-y: auto;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    box-shadow: 0 0 5px #C7C7C7;
+    cursor: pointer;
+    max-height: 50vh;
+    z-index: 1;
+
+}
+
+.selectUl_PaymentPages li {
+    padding: 0.5rem;
+    border-bottom: 1px solid #C7C7C7;
+    z-index: 5;
+}
+
+.selectUl_PaymentPages li:hover {
+    color: white;
+    background-color: #C7C7C7;
+}
+
+
+.successPageMainDiv_PaymentPage {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.successInnnerMainPage_PaymentPage {
+    width: 33%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.orderPlaceContent_PaymentPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.orderPlaceContent_PaymentPage h2 {
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.orderPlaceContent_PaymentPage p{
+    text-transform: capitalize;
+    text-align: center;
+    padding-top: 1rem;
+}
+.viewOrder_PaymentPage{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.viewOrder_PaymentPage p{
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 4rem;
+}
+.viewOrder_PaymentPage p img{
+    transform: rotate(180deg);
+}

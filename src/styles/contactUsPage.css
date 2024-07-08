@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.contactUsMainDiv_ContactUsPage {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #f5f5f5;
+    padding-bottom: 6rem;
+}
+
+.contactUsInnerMianDiv_COntactUsPage {
+    width: 80%;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.contactUsHeader_ContactUsPage {
+    width: 100%;
+    padding: 2rem;
+}
+
+.contactUsHeader_ContactUsPage h1 {
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.contactUsLowerDiv_ContactUsPage {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.coontatUsLowerLeftDiv_ContactUsPage {
+    width: 60%;
+    padding: 1rem 2rem;
+    background-color: white;
+    /* border: 1px solid; */
+}
+
+.nameContactUs_ConrtactUsPage {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.firstNameContactUs_ContactUsPage {
+    width: 48%;
+    text-align: start;
+    padding: 0.5rem 0;
+}
+
+.firstNameContactUs_ContactUsPage h2 {
+    padding-bottom: 0.3rem;
+}
+
+.firstNameContactUs_ContactUsPage input {
+    border: 1px solid #C0C0C0;
+    padding: 1rem;
+    width: 100%;
+}
+
+.phoneContactus_ContactUsPage {
+    width: 100%;
+    text-align: start;
+    padding: 0.5rem 0;
+}
+
+.phoneContactus_ContactUsPage h2 {
+    padding: 0.3rem 0;
+}
+
+.phoneContactus_ContactUsPage input {
+    border: 1px solid #C0C0C0;
+    padding: 1rem;
+    width: 100%;
+}
+
+.emailContactus_ContactUsPage {
+    width: 100%;
+    text-align: start;
+    padding: 0.5rem 0;
+}
+
+.emailContactus_ContactUsPage h2 {
+    padding: 0.3rem 0;
+}
+
+.emailContactus_ContactUsPage input {
+    border: 1px solid #C0C0C0;
+    padding: 1rem;
+    width: 100%;
+}
+
+.messageContactus_ContactUsPage {
+    width: 100%;
+    text-align: start;
+    padding: 0.5rem 0;
+}
+
+.messageContactus_ContactUsPage h2 {
+    padding: 0.3rem 0;
+}
+
+.messageContactus_ContactUsPage textarea {
+    border: 1px solid #C0C0C0;
+    padding: 0.3rem 1rem 1rem 1rem;
+    width: 100%;
+    resize: none;
+}
+
+.firstNameContactUs_ContactUsPage input:focus,
+.phoneContactus_ContactUsPage input:focus,
+.emailContactus_ContactUsPage input:focus,
+.messageContactus_ContactUsPage textarea:focus {
+    outline: none;
+}
+
+.sendMessageBtn_ConatctUsPAge {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    padding-top: 1rem;
+}
+
+.sendMessageBtn_ConatctUsPAge button {
+    background-color: #262626;
+    color: white;
+}
+
+
+
+.contactusLowerRightDiv_ContactUsPage {
+    width: 38%;
+    background-color: white;
+    padding: 1rem 2rem;
+    /* height: 100%; */
+}
+
+.conatctusLowerInnerMainDiv_ContactUsPage {
+    width: 100%;
+    height: 100%;
+}
+
+.numberDetailsMainDiv_ContactUsPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 10px;
+
+    /* height: 33.33%; */
+    width: 100%;
+}

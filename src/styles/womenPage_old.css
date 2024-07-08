@@ -1,0 +1,498 @@
+.pip-submain-container {
+    display: flex;
+}
+
+.pip-left-container {
+    padding: 20px 30px 20px 30px;
+    width: 20%;
+    background: #FFF;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+}
+
+.main-select-size_ProductListing {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+}
+
+.pip-right-container {
+    padding: 25px 0px 25px 0px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #F5F5F5;
+}
+
+.pip-heading-women {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pip-heading-women p {
+    color: #000;
+    text-align: center;
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    ;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.pip-heading-women span {
+    color: #595959;
+    text-align: center;
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    ;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.pip-main-image-container {
+    max-width: 85%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+    padding-top: 40px;
+
+}
+
+.rotate-dwnarr {
+    transform: rotate(180deg);
+}
+
+.two-column-grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+    padding-top: 40px;
+}
+
+/* For 3 columns */
+.three-column-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 45px;
+    padding-top: 40px;
+}
+
+/* For 4 columns */
+.four-column-grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+    padding-top: 40px;
+    padding: 20px;
+}
+
+.pip-sub-image-container {
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.pip-sub-image-container-1 {
+    /* padding: 20px; */
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-start; */
+}
+
+.pip-sub-image-container-1 span {
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.pip-sub-image-container-1 .emptyheart {
+    width: 10%;
+    cursor: pointer;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.pip-sub-image-container-1 .filledheart {
+    width: 10%;
+    cursor: pointer;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+img.women-product-img {
+    width: 100%;
+    /* max-width: 100%; */
+}
+
+.women-product-content {
+    /* padding-left: 25px; */
+    font-size: 25px;
+    width: 100%;
+    color: #262626 !important;
+}
+
+.women-product-content p:hover {
+    text-decoration: none !important;
+}
+
+.filledheart {
+    max-width: 13%;
+    position: absolute;
+    /* top: 0; */
+    bottom: 15px;
+    right: 10px;
+    /* top: 146px; */
+    cursor: pointer;
+}
+
+.emptyheart {
+    max-width: 13%;
+    cursor: pointer;
+    position: absolute;
+    /* top: 0; */
+    bottom: 15px;
+    right: 10px;
+    /* top: 146px; */
+}
+
+.woman-add-filter-container {
+    padding: 20px 0px;
+    border-bottom: 1px solid #DBDBDB;
+    stroke: #DBDBDB;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+    width: 14%;
+}
+
+.woman-filter-container {
+    display: flex;
+}
+
+.size-filter-top {
+    border-top: 1px solid #DBDBDB;
+}
+
+.woman-filter-container span {
+    color: #4A4A4A;
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    border: 1px solid #D1D1D1;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.woman-filter-container button {
+    border: 1px solid #D1D1D1;
+    /* width: 100%; */
+    padding: 0px 6px;
+    border-left: none;
+}
+
+.size-filter,
+.color-filter,
+.pattern-filter {
+    border-bottom: 1px solid #DBDBDB;
+    padding: 20px 0px 20px 0px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.style-filter {
+    cursor: pointer;
+}
+
+.style-filter {
+    padding: 20px 0px;
+    border-bottom: 1px solid #DBDBDB;
+}
+
+.main-select-size {
+    /* max-width: 50%; */
+    display: grid;
+    grid-template-columns: auto auto;
+    /* padding: 80px 0px 450px; */
+}
+
+.selectable-box-pip {
+    width: 50%;
+    height: 50%;
+    padding: 0;
+    width: 50%;
+    height: 50%;
+    padding: 0;
+    font-size: 10px;
+    color: black;
+    background: white;
+    border: 1px solid;
+    text-align: center;
+
+}
+
+.size-title {
+    display: flex;
+}
+
+.checkbox-input {
+    border-radius: 8px;
+    width: 15px;
+    height: 15px;
+    accent-color: black;
+}
+
+.checkbox-input-woman {
+    cursor: pointer;
+}
+
+.custom-checkbox-label {
+    padding: 5px 10px;
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    ;
+}
+
+.size-title,
+.style-select,
+.color-select,
+.pattern-select {
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkbox-sub-container-pip {
+    width: 80%;
+    display: grid;
+    padding: 0;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 10px 0px 0px 0px;
+    overflow: auto;
+    overflow-y: scroll;
+    height: 30vh;
+    width: 100%;
+}
+
+.custom-radio-pip {
+    display: inline-block;
+    position: relative;
+    /* margin-right: 20px; */
+}
+
+.custom-radio-pip input[type="radio"] {
+    display: none;
+}
+
+.custom-radio-pip .label-color1-pip {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    border: 2px solid #ccc;
+    cursor: pointer;
+    position: relative;
+    background: green;
+}
+
+.custom-radio-pip .label-color2-pip {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    border: 2px solid #ccc;
+    cursor: pointer;
+    position: relative;
+    background: purple;
+}
+
+.custom-radio-pip .label-color3-pip {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    border: 2px solid #ccc;
+    cursor: pointer;
+    position: relative;
+    background: yellow;
+}
+
+.custom-radio-pip .label-color4-pip {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    position: relative;
+    background: green;
+}
+
+.custom-radio-pip label::before {
+    content: '\2713';
+    color: #FFF;
+    font-size: 16px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+.custom-radio-pip input[type="radio"]:checked+label::before {
+    display: block;
+    font-weight: bold;
+}
+
+.filtergrid-1 {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 85%;
+    gap: 15px;
+}
+
+/* /\filter grid */
+
+.grid-show {
+    z-index: 1;
+    right: 98px;
+    top: 40px;
+    position: absolute;
+    background: #FFF;
+    width: 20%;
+    /* padding: 15px; */
+    border: none;
+}
+
+.grid-show-sortby {
+    z-index: 1;
+    top: 40px;
+    position: absolute;
+    background: #FFF;
+    min-width: 30%;
+    /* padding: 15px; */
+    border: none;
+}
+
+.square-radio {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+
+    /* margin-bottom: 10px; */
+
+}
+
+.square-radio:hover {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.08);
+}
+
+.square-radio input[type="radio"] {
+    display: none;
+}
+
+.square-radio .radio-custom {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #333;
+    border-radius: 4px;
+    position: relative;
+    cursor: pointer;
+    margin-right: 10px;
+    color: #FFF;
+
+}
+
+.square-radio .radio-custom::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #FFF;
+    transform: translate(-50%, -50%)rotate(305deg);
+    ;
+    width: 12px;
+    /* Width of the checkmark */
+    height: 6px;
+    /* Height of the checkmark */
+    border: 2px solid #333;
+    /* Checkmark border style */
+    border-top: none;
+    border-right: none;
+    opacity: 0;
+}
+
+.square-radio input[type="radio"]:checked+.radio-custom::before {
+    opacity: 1;
+}
+
+.women-product-img-container {
+    position: relative;
+}
+
+.women-product-img-container a:hover {
+    text-decoration: none !important;
+    color: #262626;
+}
+
+/* .women-product-img{
+    position: absolute;
+    width: 100%;
+    object-fit: cover;
+} */
+
+.custom-checkbox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px;
+    padding: 5px;
+}
+
+input[type="checkbox"].checkbox-input-color {
+    display: none;
+    padding: 20px;
+}
+
+.label-color {
+    display: inline-block;
+    padding: 8px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    margin-right: 5px;
+    height: 35px;
+    width: 35px;
+    color: transparent;
+}
+
+.label-color.checked::before {
+    content: '\2713';
+    /* Replace with the Unicode character for a right sign */
+    color: #ffffff;
+    padding: 2px;
+    border-radius: 50%;
+    margin-right: 5px;
+    /* border: 1px solid #000; */
+    padding: 0px 0px 5px 0px;
+}
+
+.label-color::before {
+    content: '\00a0';
+    display: inline-block;
+    padding: 8px;
+}

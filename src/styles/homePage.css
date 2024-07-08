@@ -1,0 +1,225 @@
+@import "rsuite/dist/rsuite.css";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.mainDiv_HomePage {
+    width: 100%;
+    background-color: #Efe7e7;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: start;
+}
+
+.marquee {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 5px 0px 0px 0px;
+
+}
+
+.marquee a {
+    text-decoration: none;
+    color: #000;
+    text-transform: capitalize;
+}
+
+.toolBar_HomePage {
+    width: 100%;
+}
+
+.innerMainDiv_HomePage {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    /* border: 1px solid blue; */
+}
+
+.UpperHeading_HomePage {
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 500;
+
+}
+
+.bannerInnerMainDiv_HomePage {
+    width: 100%;
+}
+
+.bannerUpperHeading_Homepage {
+    width: 100%;
+}
+
+.MiddleHeading_HomePage {
+    font-family: Marvale;
+    text-transform: capitalize;
+    color: white;
+    font-weight: 500;
+}
+
+.LowerHeading_HomePage {
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 500;
+}
+
+.bannerHeadding_HomePage {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+    height: 100%;
+}
+
+.bannerMiddleHeading_HomePage {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+.mainDiv_HomePage.item {
+    height: 100vh;
+}
+
+.middleUnderLine {
+    background-color: white;
+    width: 25%;
+}
+
+.showNowBtn_HoemPage {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    /* border: 1px solid red; */
+    height: 20%;
+}
+
+.showNowBtn_HoemPage button {
+    padding: 1rem;
+    border: 2px solid #ffffff;
+    background-color: transparent;
+    color: white;
+}
+
+.sliderClass {
+    position: relative;
+}
+
+
+/* Styles for mobile devices */
+@media (max-width: 768px) {
+
+    .innerMainDiv_HomePage {
+        width: 90%;
+    }
+
+    .bannerHeadding_HomePage {
+        width: 70%;
+    }
+
+    .UpperHeading_HomePage {
+        font-size: 22px !important;
+    }
+
+    .LowerHeading_HomePage {
+        font-size: 26px !important;
+    }
+
+    .showNowBtn_HoemPage button {
+        width: 100px !important;
+        font-size: 12px !important;
+        padding: 0.5rem !important;
+    }
+
+    .UpperHeading_HomePage {
+        line-height: 40px !important;
+    }
+
+    .LowerHeading_HomePage {
+        line-height: 40px !important;
+    }
+
+
+    /* Example styles for the main toolbar */
+    .toolBar_HomePage {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 999;
+    }
+
+    .sdemenu {
+        width: 80%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    /* Example styles for the logo */
+    .logo_HomePage img {
+        width: 100px;
+        /* Adjust logo size for smaller screens */
+    }
+
+    /* Example styles for the mobile menu icon */
+    .menuIcon_HomePage {
+        display: block;
+        /* Show the mobile menu icon */
+    }
+
+    /* Example styles for the main content */
+    .mainDiv_HomePage {
+        padding-top: 60px;
+        /* Add space for the fixed toolbar */
+    }
+
+    /* Example styles for the mobile menu */
+    .mobileMenu_HomePage {
+        position: fixed;
+        top: 60px;
+        /* Adjust top position to match the toolbar height */
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #ffffff;
+        /* Set background color for the menu */
+        z-index: 998;
+        /* Ensure menu is above other content */
+        display: none;
+        /* Hide the menu by default */
+    }
+
+    /* Example styles for the mobile menu items */
+    .mobileMenuItem_HomePage {
+        padding: 15px;
+        /* Add padding to menu items */
+        border-bottom: 1px solid #eeeeee;
+        /* Add border between menu items */
+    }
+
+    /* Example styles for the close button in the mobile menu */
+    .closeButton_HomePage {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        cursor: pointer;
+    }
+
+    .mainDiv_HomePage.item {
+        height: 30vh;
+    }
+
+    /* Show the mobile menu when the menu icon is clicked */
+    .menuIcon_HomePage:checked+.mobileMenu_HomePage {
+        display: block;
+    }
+}

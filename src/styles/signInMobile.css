@@ -1,0 +1,338 @@
+@import "rsuite/dist/rsuite.css";
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.mainDiv_SignInMobile {
+    width: 100%;
+}
+
+.innerMainDiv_SignInMobile {
+    width: 100%;
+}
+
+.toolBar_SignInMobile {
+    width: 100%;
+    padding: 2rem 0;
+    display: flex;
+    align-items: center;
+}
+
+.backArrow_SignInMObile {
+    width: 15%;
+    display: flex;
+    justify-content: center;
+}
+
+.logo_SignInMobile {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}
+
+.lowerSignContent_SignInMobile {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.lowerSignContentMainDiv_SignInMobile {
+    max-width: 550px;
+    width: 100%;
+    padding: 30px 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 5px rgb(183, 183, 183);
+    border-radius: 5px;
+}
+
+.signInHeader_SignInMobile {
+    padding: 1rem;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.phone-email_SignInMobile {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    width: 100%;
+
+}
+
+.phone_SignIMobile {
+    /* border: 1px solid red; */
+    width: 47%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.phone_SignIMobile button {
+    border: none;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    background-color: #2D2D2D;
+    color: #FBFBFB;
+    transition: all 1s ease;
+}
+
+.email_SignIMobile button {
+    border: none;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+
+.email_SignIMobile {
+    /* border: 1px solid blue; */
+    width: 47%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.email_SignIMobile button:focus {
+    background-color: #2D2D2D;
+    color: #FBFBFB;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    transition: all 1s ease;
+}
+
+.phone_SignIMobile button:focus {
+    background-color: #2D2D2D;
+    color: #FBFBFB;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    transition: all 1s ease;
+}
+
+.phone-emailInner_SignInMobile {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #EEEEEE;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+.width_wrapper {
+    width: 100%;
+}
+.label-input_SignInMobile {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0rem 40px 0rem !important;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.inputDiv_SignInMobile {
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.input_SignInMobile {
+    width: 100%;
+    margin-top: 1rem;
+    border: none;
+    line-height: 2;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    color: #777777;
+    border-bottom: 1px solid #777777;
+}
+
+.input_SignInMobile:focus {
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.getOTPBtn_SignInMobile {
+    width: 100%;
+    /* padding: 1rem; */
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.getOTPBtn_SignInMobile button, .verify {
+    width: 100%;
+    border: none;
+    background-color: #2D2D2D;
+    color: white;
+    font-weight: 500;
+    font-family: Poppins;
+    transition: all 0.7s ease;
+    padding: 15px 10px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.getOTPBtn_SignInMobile button:hover, .verify:hover {
+    background-color: #EEEEEE;
+    color: #676767;
+    transition: all 0.7s ease;
+    cursor: pointer;
+}
+
+.createAccount_SignInMobile {
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.label_SignInMobile p {
+    font-weight: 100;
+    color: #676767;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+.createAccount_SignInMobile span {
+    font-weight: 100;
+    color: #676767;
+}
+
+.createAccount_SignInMobile a {
+    cursor: pointer;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+
+.inputOtpDiv_SignInMobile {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 90%;
+}
+
+.inputOtpDiv_SignInMobile input {
+    width: 50px;
+    border: none;
+    border-bottom: 1px solid;
+    text-align: center;
+    font-size: 30px;
+}
+
+.inputOtpDiv_SignInMobile input:focus {
+    outline: none;
+    border: none;
+    border-bottom: 2px solid blue;
+}
+
+.wrapper_otp_input {
+    display: flex;
+    justify-content:space-between;
+    gap: 10px;
+}
+
+.wrapper_otp_input input {
+    border-bottom: 1px solid 
+    #BABABA;
+    width: 16.6%;
+    margin-top: 15px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 30px;
+    color: #000;
+}
+
+.wrapper_otp_input input:focus {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid  #BABABA;
+}
+
+@media (max-width: 768px) {
+    /* Adjust styles for small screens */
+    .mainDiv_SignInMobile {
+        /* Adjust width for smaller screens */
+        max-width: 100%;
+    }
+
+    .signInHeader_SignInMobile h1 {
+        font-size: 50px ! important; 
+    }
+
+    .phone-email_SignInMobile {
+        /* Adjust layout for smaller screens */
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .phone-emailInner_SignInMobile {
+        /* Adjust layout for smaller screens */
+        width: 100%;
+        max-width: 300px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .phone_SignIMobile, .email_SignIMobile {
+        /* Adjust button styles for smaller screens */
+        width: 45%; /* Adjust button width */
+        margin-bottom: 10px; /* Add margin between buttons */
+        height: 64.184px ! important; 
+        
+    }
+    .phone_SignIMobile button {
+        font-size: 18px ! important; 
+        
+    }
+    .email_SignIMobile button {
+        font-size: 21px ! important; 
+        
+    }
+    .label_SignInMobile h1 {
+        font-size: 16px ! important; 
+
+    }
+
+    .label-input_SignInMobile {
+        /* Adjust padding for smaller screens */
+        padding: 20px;
+    }
+
+    .input_SignInMobile {
+        /* Adjust input styles for smaller screens */
+        width: 100%; /* Make inputs full width */
+        margin-bottom: 10px; 
+        font-size: 18.697px ! important; 
+    }
+
+    .getOTPBtn_SignInMobile button {
+        /* Adjust button styles for smaller screens */
+       
+        font-size: 17.944px ! important; 
+        height: 51.502px ! important; 
+    }
+
+    .createAccount_SignInMobile h3 {
+        /* Adjust font size for smaller screens */
+        font-size: 13.12px ! important; 
+    }
+}

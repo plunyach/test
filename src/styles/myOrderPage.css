@@ -1,0 +1,1462 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.mainDiv_MyOrderPage {
+    width: 100%;
+    font-family: Gothic1;
+    position: relative;
+}
+
+.toolBar_MyOrderPage {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.contentMainDiv_MyOrderPage {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    padding-top: 1rem;
+    /* flex-direction: column; */
+    align-items: start;
+    /* height: 80vh; */
+
+}
+
+.contentMainLeftDiv_MyOrderPage {
+    height: 80vh;
+}
+
+.leftMainDiv_MyrderPage {
+    width: 20%;
+    background-color: white;
+    /* border: 1px solid red; */
+    padding-bottom: 2rem;
+    position: sticky;
+    top: 11.5%;
+    /* position: relative; */
+    z-index: 6;
+    height: 80vh;
+}
+
+.InnerleftMainDiv_MyrderPage {
+    height: 78vh;
+}
+
+.DropDownFilter_MyOrderPage {
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 3rem;
+    background-color: white;
+    padding: 0 0.5rem;
+}
+
+.custom-select img {
+    width: 15%;
+}
+
+.selectFilterOption {
+    border: none;
+}
+
+.selectFilterOption:focus {
+    outline: none;
+}
+
+
+.DropDownFilterList_MyOrderPage {
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
+    margin-left: 3rem;
+    background-color: white;
+    padding: 1rem 0.5rem;
+
+}
+
+.myOrderLeftContent_MyOrderPage {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 100%;
+    padding: 1rem 0;
+    font-family: Gothic1;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+
+}
+
+
+/* tailwind started */
+
+.selectMainDiv_MyOrderPage {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    margin-left: 2%;
+    padding: 0 1rem;
+    cursor: pointer;
+}
+
+.selectUl_MyOrderPage {
+    background-color: white;
+    margin-top: 2%;
+    overflow-y: auto;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    box-shadow: 0 0 5px #C7C7C7;
+    font-size: 22.708px !important;
+    cursor: pointer;
+
+}
+
+.selectUl_MyOrderPage li {
+    padding: 0.5rem;
+    border-bottom: 1px solid #C7C7C7;
+}
+
+.selectUl_MyOrderPage li:hover {
+    color: white;
+    background-color: #C7C7C7;
+}
+
+ 
+.myOrderLeftContent_MyOrderPage h1 {
+    font-weight: 100;
+    text-transform: capitalize;
+}
+
+.myOrderLeftContentInner_MyOrderPage {
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+}
+
+.iconLeftContentDiv_MyOrderPage {
+    width: 20%;
+}
+
+.contentLeftContentDiv_MyOrderPage {
+    width: 80%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.contentLeftContentDiv_MyOrderPage h1{
+    line-height: 2;
+}
+
+.userName_MyOrderPage {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 2rem 0;
+}
+
+.userName_MyOrderPage h1 {
+    text-align: center;
+    font-family: Gothic1;
+    line-height: 2;
+}
+
+.userName_MyOrderPage h1 span {
+    font-weight: 100;
+}
+
+.signOutBtn_CartPage {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.signOutBtn_CartPage button {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border-radius: 5px; */
+    border: 1px solid #262626;
+}
+
+.signOutBtn_CartPage button img {
+    padding-right: 0.3rem;
+}
+
+
+.rightMainDiv_MyOrderPage {
+    width: 80%;
+    /* border: 1px solid blue; */
+    background: #F5F5F5;
+    padding: 0rem 2rem 2rem 2rem;
+}
+
+.headerRightMainDiv_MyOrderPage {
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    padding: 100px 0px 0px 0px;
+}
+
+
+.itemsDetailsList_MyOrderPage {
+    /* border: 1px solid blue; */
+    padding: 2rem;
+    background-color: white;
+}
+
+.itemsDetailsListInner_MyOrderPage {
+    display: flex;
+    justify-content: space-around;
+    /* border: 1px solid #C7C7C7; */
+    padding: 1rem 0;
+}
+
+.itemsDetailsListInner_MyOrderPage h2,
+.itemsDetailsListInner_MyOrderPage h3 {
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.itemsDetailsListInner_MyOrderPage h3 {
+    color: #818181;
+}
+
+.itemDetaillist_MyOrderPage {
+    display: flex;
+    flex-direction: column;
+}
+
+.itemDetaillist_MyOrderPage h2,
+.itemDetaillist_MyOrderPage h3 {
+    font-weight: 100;
+    font-family: Gothic1;
+}
+
+.itemsDetailsListLowerDiv_MyOrderPage {
+    width: 100%;
+    display: flex;
+}
+
+.itemsDetailsListLowerMainDiv_MyOrderPage {
+    /* display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px 20px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 30%;
+}
+
+.allOrderImagesMainDiv_MyOrderPage {
+    width: 17%;
+    margin-top: 1rem;
+    width: 100%;
+}
+
+.itemContentDiv_MyOrderPage {
+    width: 100%;
+    border-bottom: 1px solid #D2D2D2;
+    padding-bottom: 1rem;
+}
+
+.allOrderImagesMainDiv_MyOrderPage img {
+    width: 100%;
+    padding-top: 0.3rem;
+    border: 1px solid #C7C7C7;
+    padding: 0.3rem;
+}
+
+.badge {
+    margin-top: 1rem;
+}
+
+.itemContentInnerDiv_MyOrderPage {
+    display: flex;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+    padding-top: 1rem;
+
+}
+
+.itemImg_MyOrderPage {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+}
+
+.itemImg_MyOrderPage img {
+    border: 1px solid #C7C7C7;
+    width: 70%;
+    padding: 0.2rem;
+}
+
+.itemContentInnerLeftDiv_MyOrderPage {
+    display: flex;
+    /* justify-content: space-between; */
+    width: 50%;
+}
+
+.itemContent_MyOrderPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30%;
+    padding-left: 1rem;
+}
+.itemContent_MyOrderPage h1,
+.itemContent_MyOrderPage h2,
+.itemContent_MyOrderPage h3{
+    line-height: 2;
+}
+
+.colorSizeDiv_MyOrderPage {
+    display: flex;
+    justify-content: space-between;
+}
+
+.itemContentInnerRightDiv_MyOrderPage {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.itemContentInnerRightDivCancle_MyOrderPage {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.itemContent_MyOrderPage h1,
+.itemContent_MyOrderPage h2,
+/* .itemContent_MyOrderPage h3, */
+.itemContentInnerRightDiv_MyOrderPage h2,
+.itemContentInnerRightDivCancle_MyOrderPage {
+    font-weight: 100;
+}
+
+.viewProductDiv_MyOrderPage {
+    /* border-right: 1.6px solid#A3A3A3; */
+    width: 40%;
+    display: flex;
+    justify-content: end;
+}
+
+.viewProductDiv_MyOrderPage h2 {
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+}
+
+.itemContentInnerRightDiv_MyOrderPage button {
+    border: 1px solid #2D2D2D;
+    background-color: transparent;
+    font-family: Gothic1;
+}
+
+.itemContentInnerRightDivCancle_MyOrderPage button {
+    border: 1px solid #2D2D2D;
+    background-color: transparent;
+    font-family: Gothic1;
+    text-transform: capitalize;
+}
+
+.orderStatusMainDiv_MyOrder {
+    margin-bottom: 2rem;
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid #C5C5C5;
+    background: white;
+    padding: 1rem;
+}
+
+.orderStatusMainDiv_MyOrder h2 {
+    font-weight: 600;
+    font-style: italic;
+}
+
+.headerRightMainDiv_MyOrderPage_MyProfile {
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    padding: 2rem 0;
+    flex-direction: column;
+}
+
+.personalDetailsMainDiv_MyOrderPage_MyProfile {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.personalDetailsLeftMainDiv_MyOrderPage_MyProfile {
+    width: 52%;
+    /* border: 1px solid red; */
+    padding: 1rem;
+    background-color: white;
+
+}
+
+.personalDetailsRightMainDiv_MyOrderPage_MyProfile {
+    width: 45%;
+    padding: 1rem;
+    /* height: 90%; */
+    background-color: white;
+}
+
+.personalDetailsHeadder_MyOrderPage_MyProfile h1 {
+    text-transform: capitalize;
+    padding-bottom: 1rem;
+}
+
+.addressDetailsHeadder_MyOrderPage_MyProfile h1 {
+    text-transform: capitalize;
+    padding-bottom: 1rem;
+}
+
+.nameMainDiv_MyOrderPage_MyProfile {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.nameInnerMainDiv_MyOrderPage_MyProfile {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.selectInnerMainDiv_MyOrderPage_MyProfile {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+}
+
+.selectMainInputDiv_MyOrderPage_MyProfile {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    /* margin-left: 2%; */
+    padding: 0 1rem;
+    cursor: pointer;
+    border: 1px solid#C0C0C0;
+    color: #C0C0C0;
+    width: 100% !important;
+}
+
+.selectMainRadioDiv_MyOrderPage_MyProfile {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    /* margin-left: 2%; */
+    padding: 0 1rem;
+    cursor: pointer;
+    color: #C0C0C0;
+    width: 60% !important;
+    /* border: 1px solid red; */
+}
+
+.selectMainRadioDiv_MyOrderPage_MyProfile label {
+    display: flex;
+    align-items: center;
+}
+
+input[type=radio] {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #999999;
+    border-radius: 50%;
+    background-clip: content-box;
+    padding: 3px;
+
+}
+
+input[type=radio]:checked {
+    background-color: #515151;
+    border-color: #515151;
+}
+
+.selectMainInputDiv_MyOrderPage_MyProfile input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    color: black;
+}
+
+.selectMainInputDiv_MyOrderPage_MyProfile input:focus {
+    outline: none;
+}
+
+.phoneNoMainDiv_MyOrderPage_MyProfile {
+    width: 100%;
+    padding-top: 2rem;
+}
+
+.phoneInnerMainDiv_MyOrderPage_MyProfile {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.BtnMainDiv_MyOrderPage_MyProfile {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    padding-top: 4rem;
+}
+
+.Btn_MyOrderPage_MyProfile {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cancelBtn_MyOrderPage_MyProfile {
+    border: none;
+    background-color: white;
+    color: #262626;
+    border: 1px solid #262626;
+}
+
+.editBtn_MyOrderPage_MyProfile {
+    border: none;
+    background-color: #262626;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.editBtn_MyOrderPage_MyProfile img {
+    padding-right: 0.5rem;
+}
+
+.addShippingAddress_MyOrderPage_MyProfile {
+    padding: 1rem;
+    border: 1px solid #999999
+}
+
+.addShippingAddress_MyOrderPage_MyProfile h2 {
+    text-transform: capitalize;
+}
+
+.shippingDetailsContentAddreddDiv_MyOrderPage_MyProfile input {
+    width: 100%;
+    border: 1px solid #999999;
+    margin-top: 0.3rem;
+    padding: 1rem;
+}
+
+.shippingDetailsContentAddreddDiv_MyOrderPage_MyProfile input:focus {
+    outline: none;
+}
+
+.shippingDetailsContentPinDiv_MyOrderPage_MyProfile {
+    width: 100%;
+}
+
+.addBillingAddress_MyOrderPage_MyProfile {
+    padding: 1rem;
+    border: 1px solid #999999;
+    margin-top: 2rem;
+}
+
+.addBillingAddress_MyOrderPage_MyProfile h2 {
+    text-transform: capitalize;
+}
+
+.selectCityInnerMainDivLower_MyOrderPage_MyProfile {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+}
+
+.selectMainDivLower_MyOrderPage_MyProfile {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    /* margin-left: 2%; */
+    padding: 0 1rem;
+    cursor: pointer;
+    border: 1px solid#C0C0C0;
+    /* color: #C0C0C0; */
+    width: 98% !important;
+}
+
+.selectUlLower_MyOrderPage_MyProfile {
+    background-color: white;
+    margin-top: 2%;
+    overflow-y: auto;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    box-shadow: 0 0 5px #C7C7C7;
+    cursor: pointer;
+    max-height: 50vh;
+    z-index: 1;
+}
+
+.selectMainInputDiv_MyOrderPage_MyProfile {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    /* margin-left: 2%; */
+    padding: 0 1rem;
+    cursor: pointer;
+    border: 1px solid#C0C0C0;
+    color: #C0C0C0;
+    width: 100% !important;
+}
+
+.selectMainInputDiv_MyOrderPage_MyProfile input {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.selectMainInputDiv_MyOrderPage_MyProfile input:focus {
+    outline: none;
+}
+
+.selectUpperMainDivv_MyOrderPage_MyProfile {
+    width: 100%;
+    display: flex;
+    padding: 1rem 0;
+    justify-content: space-between;
+}
+
+.selectMainDiv_MyOrderPage_MyProfile {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    /* margin-left: 2%; */
+    padding: 0 1rem;
+    cursor: pointer;
+    border: 1px solid#C0C0C0;
+    /* color: #C0C0C0; */
+    width: 100% !important;
+}
+
+.selectUl_MyOrderPage_MyProfile {
+    background-color: white;
+    margin-top: 2%;
+    overflow-y: auto;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    box-shadow: 0 0 5px #C7C7C7;
+    cursor: pointer;
+    max-height: 50vh;
+    z-index: 1;
+
+}
+
+.accountSettingLowerMainDiv__MyOrderPage_AccountSetting {
+    width: 50%;
+    padding: 1rem;
+    background-color: white;
+}
+
+.personalDetailsHeadder_MyOrderPage_AccountSetting h1 {
+    text-transform: capitalize;
+    padding-bottom: 1rem;
+}
+
+.selectInnerMainDivChangeEmail_MyOrderPage_AccountSetting {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.selectInnerMainDivChangePassowrd_MyOrderPage_AccountSetting {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 2rem;
+}
+
+.selectInnerMainDivChangePassowrd_MyOrderPage_AccountSetting h2,
+.selectInnerMainDivChangeEmail_MyOrderPage_AccountSetting h2 {
+    text-transform: capitalize;
+}
+
+.DeleteAccount_AccountSetting {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2rem;
+}
+
+.Btn_MyOrderPage_MyProfile button,
+.DeleteAccount_AccountSetting button {
+    text-transform: capitalize;
+    padding: 0.5rem;
+}
+
+.rightMainDiv_MyOrderPage_AccountSetting {
+    width: 80%;
+    /* border: 1px solid blue; */
+    background: #F5F5F5;
+    padding: 0rem 2rem 2rem 2rem;
+    /* height: 100vh; */
+}
+
+.changePasswordMainDiv_MyOrder_AccountSetting {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00000033;
+    top: 0%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    z-index: 2;
+
+}
+
+.reviewMainDiv_MyOrder_AccountSetting {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00000033;
+    top: 0%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    z-index: 2;
+
+}
+
+.changePasswordInnerMainDiv_MyOrder_AccountSeeting {
+    color: red;
+    width: 30%;
+    background-color: white;
+}
+
+.reviewInnerMainDiv_MyOrder_AccountSeeting {
+    color: red;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.productHeaderReview_MyOrder {
+    padding: 1rem 0;
+}
+
+.leftReviewMainDiv_MyOrder {
+    background-color: white;
+    width: 30%;
+    padding: 0rem 2rem;
+    height: max-content;
+
+}
+
+.productTitleReview_MyOrder {
+    padding: 1rem 0;
+}
+.submitReviewBtn_MyOrder{
+    width: 100%;
+    padding-top:3rem ;
+}
+.submitReviewBtn_MyOrder button{
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 0.6rem;
+    font-family: Gothic1;
+}
+
+.reviewImgDiv_MyOrder {
+    border: 1px solid #C7C7C7;
+    width: 100%;
+    padding: 1rem 1rem 0 1rem;
+}
+
+.reviewDetailsMainDiv_MyOrder {
+    padding: 0rem 0 2rem 0;
+    border-bottom: 1px solid #C7C7C7;
+}
+
+.upperHeaderDivChangePassword_MyOrder_AccountSetting {
+    padding: 2rem;
+    width: 100%;
+}
+
+.upperHeaderDivreview_MyOrder_AccountSetting {
+    padding: 1rem;
+    width: 68%;
+    background-color: white;
+}
+
+.upperHeaderMainDivReview_AccountSetting {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.orderIdReview_MyOrder {
+    padding: 1rem 0;
+    border-bottom: 1px solid #D7D7D7;
+}
+
+.orderIdReview_MyOrder h2 {
+    color: black;
+    font-weight: 600;
+}
+
+.orderIdReview_MyOrder h3 {
+    color: #4B4B4B;
+}
+
+.NameReview_MyOrder {
+    padding: 1rem 0;
+}
+
+.NameReview_MyOrder h2 {
+    padding-bottom: 0.5rem;
+    color: black;
+    font-weight: 600;
+}
+
+.NameReview_MyOrder span {
+    color: #555;
+}
+
+.NameReview_MyOrder input {
+    border: 1px solid #D7D7D7;
+    width: 100%;
+    padding: 0.5rem;
+    color: black;
+}
+
+.NameReview_MyOrder input:focus {
+    outline: none;
+    color: black;
+}
+
+.NameReview_MyOrder {
+    padding: 1rem 0;
+}
+
+.DescriptionReview_MyOrder h2 {
+    padding-bottom: 0.5rem;
+    color: black;
+    font-weight: 600;
+}
+
+.DescriptionReview_MyOrder span {
+    color: #555;
+}
+
+.DescriptionReview_MyOrder textarea {
+    border: 1px solid #D7D7D7;
+    width: 100%;
+    padding: 0.5rem;
+    color: black;
+}
+
+.DescriptionReview_MyOrder textarea:focus {
+    outline: none;
+    color: black;
+}
+
+.upperHeaderMainDivChangePassword_AccountSetting {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.upperHeaderMainDivChangePassword_AccountSetting {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.currentPasswordChangePassword_AccountSetting {
+    width: 100%;
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+    padding-top: 0.7rem;
+}
+
+.currentPasswordChangePassword_AccountSetting input {
+    width: 90%;
+    border: none;
+    padding: 0.5rem;
+}
+
+.currentPasswordChangePassword_AccountSetting input:focus {
+    outline: none;
+    color: #262626;
+}
+
+.changePasswordBtn_AccountSetting {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.changePasswordBtn_AccountSetting button {
+    text-transform: capitalize;
+}
+
+.crossImgDiv_ChangePassword {
+    cursor: pointer;
+}
+
+
+
+
+
+.headerRightMainDiv_MyOrderPage_ContactUs {
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    padding: 2rem 0;
+    flex-direction: column;
+}
+
+.personalDetailsMainDiv_MyOrderPage_ContactUs {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.personalDetailsLeftMainDiv_MyOrderPage_ContactUs {
+    width: 52%;
+    /* border: 1px solid red; */
+    padding: 1rem;
+    background-color: white;
+
+}
+
+.personalDetailsHeadder_MyOrderPage_ContactUs h1 {
+    text-transform: capitalize;
+    padding-bottom: 1rem;
+}
+
+.personalDetailsRightMainDiv_MyOrderPage_ContactUs {
+    width: 45%;
+    padding: 1rem;
+    /* height: 90%; */
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* height: 100%; */
+}
+
+.nameInnerMainDiv_MyOrderPage_ContactUs {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.selectInnerMainDiv_MyOrderPage_ContactUs {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+}
+
+.selectMainInputDiv_MyOrderPage_ContactUs {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    /* margin-left: 2%; */
+    padding: 0 1rem;
+    cursor: pointer;
+    border: 1px solid#C0C0C0;
+    color: #C0C0C0;
+    width: 100% !important;
+}
+
+.selectMainInputDiv_MyOrderPage_ContactUs input {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.selectMainInputDiv_MyOrderPage_ContactUs input:focus {
+    outline: none;
+    color: #262626;
+}
+
+.selectInnerMainDiv_MyOrderPage_ContactUs {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+}
+
+.selectMainInputDiv_MyOrderPage_ContactUs {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    /* margin-left: 2%; */
+    padding: 0 1rem;
+    cursor: pointer;
+    border: 1px solid#C0C0C0;
+    color: #C0C0C0;
+    width: 100% !important;
+}
+
+.selectMainInputDiv_MyOrderPage_ContactUs input {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.selectMainInputDiv_MyOrderPage_ContactUs input:focus {
+    outline: none;
+    color: #262626;
+}
+
+.phoneNoMainDiv_MyOrderPage_ContactUs {
+    width: 100%;
+    padding-top: 2rem;
+}
+
+.phoneInnerMainDiv_MyOrderPage_ContactUs {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.selectMainInputDiv_MyOrderPage_ContactUs {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    /* margin-left: 2%; */
+    padding: 0 1rem;
+    cursor: pointer;
+    border: 1px solid#C0C0C0;
+    color: #C0C0C0;
+    width: 100% !important;
+}
+
+.selectMainInputDiv_MyOrderPage_ContactUs input {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.selectMainInputDiv_MyOrderPage_ContactUs input:focus {
+    outline: none;
+    color: #262626;
+}
+
+.phoneNoMainDiv_MyOrderPage_ContactUs {
+    width: 100%;
+    padding-top: 2rem;
+}
+
+.phoneInnerMainDiv_MyOrderPage_ContactUs {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.selectMainInputDiv_MyOrderPage_ContactUs {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    /* margin-left: 2%; */
+    padding: 0 1rem;
+    cursor: pointer;
+    border: 1px solid#C0C0C0;
+    color: #C0C0C0;
+    width: 100% !important;
+}
+
+.selectMainInputDiv_MyOrderPage_ContactUs input {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.selectMainInputDiv_MyOrderPage_ContactUs input:focus {
+    outline: none;
+    color: #262626;
+}
+
+.phoneNoMainDiv_MyOrderPage_ContactUs {
+    width: 100%;
+    padding-top: 2rem;
+}
+
+.phoneInnerMainDiv_MyOrderPage_ContactUs {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.selectMainInputDivMessage_MyOrderPage_ContactUs {
+    background-color: white;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    position: relative;
+    /* margin-left: 2%; */
+    padding: 0 1rem;
+    cursor: pointer;
+    border: 1px solid#C0C0C0;
+    color: #C0C0C0;
+    width: 100% !important;
+}
+
+.selectMainInputDivMessage_MyOrderPage_ContactUs textarea {
+    width: 100%;
+    height: 100%;
+    border: none;
+    display: flex;
+    align-items: start;
+    padding-top: 0.3rem;
+    resize: none;
+}
+
+.selectMainInputDivMessage_MyOrderPage_ContactUs textarea:focus {
+    outline: none;
+    color: #262626;
+}
+
+.SendMassege_ContactUs {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    padding-top: 2rem;
+}
+
+.SendMassege_ContactUs button {
+    text-transform: capitalize;
+}
+
+.phoneMainDiv_MyOrderPage_ContactUs {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.phoneUpperDiv_MyOrderPage_ContactUs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.phoneUpperDiv_MyOrderPage_ContactUs h2 {
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.phoneUpperDiv_MyOrderPage_ContactUs img {
+    padding-bottom: 0.5rem;
+}
+
+.phoneDownDiv_MyOrderPage_ContactUs {
+    display: flex;
+    justify-content: center;
+    padding-top: 0.5rem;
+}
+
+.phoneDownDiv_MyOrderPage_ContactUs {
+    display: flex;
+    justify-content: center;
+    padding-top: 0.5rem;
+}
+
+.phoneDownDiv_MyOrderPage_ContactUs h2 {
+    width: 70%;
+    text-align: center;
+}
+
+.phoneEmaiDownDiv_MyOrderPage_ContactUs h2,
+.phoneNumberDownDiv_MyOrderPage_ContactUs h2 {
+    text-align: center;
+}
+
+.CancelBtn_MyOrderPage_AccountSetting {
+    border: none;
+    background-color: white;
+    color: #262626;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #262626;
+
+}
+
+
+.container {
+    /* padding: 16px;
+    margin: 16px auto; */
+}
+
+.result {
+    text-align: center;
+    margin-bottom: 16px;
+    color: black;
+}
+
+.stars {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.star {
+    position: relative;
+    cursor: pointer;
+}
+
+.stars_radio-input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1px;
+    height: 1px;
+    clip: rect(1px, 1px, 1px, 1px);
+}
+
+@media (max-width: 768px) { 
+    .itemsDetailsListInner_MyOrderPage
+    {
+        display:block;
+    }
+    .itemDetaillist_MyOrderPage
+    {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .itemImg_MyOrderPage{
+        width: 100%;
+        display: block;
+    }
+    .itemImg_MyOrderPage img{
+        width: 100%;
+    }
+    .sumyorder h1 { 
+        width: 100% ! important;
+        font-size: 22.4272px! important; 
+    }
+    .selectMainDiv_MyOrderPage h1 {  
+        font-size: 17.4272px! important;
+ 
+    }
+    .selectMainDiv_MyOrderPage  {  
+        width: 100% ! important;
+        height: 64.3px ! important;
+        font-size: 17.4272px! important;
+        background-color: white;
+        display: block;
+        align-items: center;
+        justify-content: space-between; 
+        cursor: pointer;
+        text-align: center;
+ 
+    }
+    .contentLeftContentDiv_MyOrderPage {
+        display: none;
+    }
+    .contentLeftContentDiv_MyOrderPage h1{
+        display: none;
+    }
+    .iconLeftContentDiv_MyOrderPage{
+        width: 50% ! important;
+    }
+    .myOrderLeftContent_MyOrderPage{
+        margin-left: 17px;
+
+    }
+    .signOutBtn_CartPage{
+        margin-left: 5px;
+        margin-top: 15px;
+    }
+    
+    .signOutBtn_CartPage button{
+        border: none ! important;
+    }
+    .signOutBtn_CartPage h1{
+        display: none;
+    }
+    .headerRightMainDiv_MyOrderPage {
+        display: flex;
+        flex-direction: column;
+      }
+      
+      .sumyorder {
+        margin-bottom: 10px;   
+        text-align: center;
+
+      }
+      
+      .spacer {
+        height: 10px; /* Adjust height as needed */
+      }
+      
+      .selectMainDiv_MyOrderPage {
+        display: flex;
+        align-items: center;
+      }
+
+      /* profiel */
+      .profile_title h1,.headerRightMainDiv_MyOrderPage_MyProfile h1{
+        font-size: 22px !important;
+      }
+      .personalDetailsMainDiv_MyOrderPage_MyProfile {
+        flex-direction: column; /* Stack elements vertically on smaller screens */
+      }
+      .addressDetailsHeadder_MyOrderPage_MyProfile h1{
+        font-size: 22px !important;
+      }
+      
+     
+      .nameInnerMainDiv_MyOrderPage_MyProfile,
+      .phoneInnerMainDiv_MyOrderPage_MyProfile,
+      .addressDetailsHeadder_MyOrderPage_MyProfile {
+        padding-bottom: 0.5rem; /* Adjust padding */
+      }
+    
+      .nameInnerMainDiv_MyOrderPage_MyProfile h2,
+      .phoneInnerMainDiv_MyOrderPage_MyProfile h2,
+      .addressDetailsHeadder_MyOrderPage_MyProfile h1{
+        font-size: 16px !important;
+      }
+      .personalDetailsLeftMainDiv_MyOrderPage_MyProfile,.personalDetailsRightMainDiv_MyOrderPage_MyProfile{
+        width:100% !important;
+        padding: 1rem;
+        margin-top: 3px;
+      }
+      .personalDetailsHeadder_MyOrderPage_MyProfile h1,.selectUl_MyOrderPage_MyProfile,
+      .selectUlLower_MyOrderPage_MyProfile,
+      .personalDetailsHeadder_MyOrderPage_AccountSetting h1,
+      .userName_MyOrderPage h1,
+      .phoneUpperDiv_MyOrderPage_ContactUs h2,
+      .orderpage_h1 h1{
+        font-size: 16.356px!important;
+
+      }
+      .phoneDownDiv_MyOrderPage_ContactUs h2,.phoneNumberDownDiv_MyOrderPage_ContactUs h2,
+      .phoneEmaiDownDiv_MyOrderPage_ContactUs h2{
+        font-size: 12.356px!important;
+      }
+      .leftMainDiv_MyrderPage{
+        z-index: 0!important;
+      }
+      .selectInnerMainDiv_MyOrderPage_MyProfile h2,.selectInnerMainDiv_ShippingDetails h2,.phoneInnerMainDiv_MyOrderPage_MyProfile h2,.selectInnerMainDivChangeEmail_MyOrderPage_AccountSetting h2,
+      .selectInnerMainDivChangePassowrd_MyOrderPage_AccountSetting h2,
+      .selectInnerMainDiv_MyOrderPage_ContactUs h2,
+      .phoneInnerMainDiv_MyOrderPage_ContactUs h2, 
+      .shippingDetailsContentAddreddDiv_MyOrderPage_MyProfile h2,.selectCityInnerMainDivLower_MyOrderPage_MyProfile h2 {
+        font-size: small !important;
+      }
+      .selectMainInputDiv_MyOrderPage_MyProfile,.selectMainInputDiv_ShippingDetails,.selectMainInputDiv_MyOrderPage_ContactUs{
+        font-size: x-small !important;
+        height:40px!important;
+      }
+      .selectMainDivLower_MyOrderPage_MyProfile,.selectMainDiv_MyOrderPage_MyProfile{
+        height: 40px !important;
+      }
+      .Btn_MyOrderPage_MyProfile button{
+        width: 80.9px!important;
+        height: 41.36px!important;
+        
+      }
+      .Btn_MyOrderPage_MyProfile{
+        width: 71.9%!important;
+      }
+      .phoneNoMainDiv_MyOrderPage_MyProfile,.phoneNoMainDiv_MyOrderPage_ContactUs{
+        padding-top: 0rem;
+      }
+      .SendMassege_ContactUs button{ 
+        width: 125.2px!important;
+        height: 50.36px!important;
+      }
+      .BtnMainDiv_MyOrderPage_MyProfile{
+        padding-top: 0rem !important;
+
+      }
+      .accountSettingLowerMainDiv__MyOrderPage_AccountSetting {
+        width: 100%!important;
+      }
+      .personalDetailsLeftMainDiv_MyOrderPage_ContactUs,.personalDetailsRightMainDiv_MyOrderPage_ContactUs{
+        width: 100%!important;
+        margin-top: 12px !important;
+      }
+      .DeleteAccount_AccountSetting button{
+        width: 99.5px!important;
+        height: 44.36px!important;
+      }
+      .changePasswordInnerMainDiv_MyOrder_AccountSeeting{
+        width: 59.5%!important;
+      }
+      .upperHeaderMainDivChangePassword_AccountSetting h2{
+        font-size: 13px !important;
+      }
+      .changePasswordBtn_AccountSetting button{
+        width: 71.2px!important;
+        height: 31.36px!important;
+        font-size: 8px !important;
+      }
+      .changePasswordMainDiv_MyOrder_AccountSetting{
+        z-index: 25;
+      }
+      .personalDetailsMainDiv_MyOrderPage_ContactUs{
+        display: block !important;
+      }
+      /* profiel */
+   
+
+
+}

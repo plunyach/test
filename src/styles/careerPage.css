@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.careerMainDiv_CareerPage {
+    width: 100%;
+    background-color: #f5f5f5f5;
+    display: flex;
+    justify-content: center;
+}
+
+.careerInnerMainDiv_CareerPage {
+    width: 80%;
+}
+
+.careerHeading_CareerPage {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.careerHeading_CareerPage {
+    width: 100%;
+    padding: 2rem;
+}
+
+.careerHeading_CareerPage h2 {
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+
+.lowerMainDiv {
+    width: 100%;
+}
+
+.banner_CareerPage {
+    width: 100%;
+    background-image: url("../svg/careerPageBG.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0 0px 18px -14px #262626;
+}
+
+.bannerLeftDiv_CareerPage {
+    width: 45%;
+    padding: 3rem;
+}
+
+.bannerLeftDiv_CareerPage h1 {
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+.bannerLeftDiv_CareerPage p {
+    font-weight: 100;
+    color: #3d3d3d;
+}
+
+.bannerLeftDiv_CareerPage button {
+    background-color: black;
+    color: white;
+    margin-top: 1rem;
+}
+.ourOpening_CareerPage{
+    border-bottom: 1px solid #3d3d3d;
+    padding-top: 4rem;
+    padding-bottom: 0.5rem;
+}
+.ourOpening_CareerPage h1{
+    font-weight: 600;
+}
+.jobsMainDiv_CareerPage{
+    width: 100%;
+}
+.jobOpeningInnerInnerMainDiv_CareerPage{
+    display: flex;
+    justify-content: space-between;
+}
+.jobOpeningInnerMainDiv_CareerPage{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    justify-content: space-between;
+    background-color: white;
+    margin: 1.5rem 0;
+}
+.descriptionDetails_CareerPage{
+    /* padding: 0rem 2rem; */
+    padding-top: 0.3rem;
+    background-color: white;
+}
+.descriptionDetails_CareerPage h2{
+    text-transform: capitalize;
+    text-decoration: underline;
+    font-weight: 600;
+    padding-bottom: 1rem;
+}
+.descriptionDetails_CareerPage button{
+    padding: 0.5rem;
+    background-color: black;
+    color: white;
+    margin-top: 2rem;
+}
+
+
+.contactUsLowerDiv_CareerPage{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+}
+
+.coontatUsLowerLeftDiv_CareerPage{
+    width: 60%;
+    padding: 1rem 2rem;
+    background-color: white;
+    /* border: 1px solid; */
+}
+.nameContactUs_ConrtactUsPage{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.firstNameContactUs_CareerPage{
+    width: 48%;
+    text-align: start;
+    padding: 0.5rem 0;
+}
+.firstNameContactUs_CareerPage h2{
+    padding-bottom: 0.3rem;
+}
+.firstNameContactUs_CareerPage input{
+    border: 1px solid #C0C0C0;
+    padding: 1rem;
+    width: 100%;
+}
+.phoneContactus_CareerPage{
+    width: 100%;
+    text-align: start;
+    padding: 0.5rem 0;
+}
+.phoneContactus_CareerPage h2{
+    padding: 0.3rem 0;
+}
+.phoneContactus_CareerPage input{
+    border: 1px solid #C0C0C0;
+    padding: 1rem;
+    width: 100%;
+}
+.emailContactus_CareerPage{
+    width: 100%;
+    text-align: start;
+    padding: 0.5rem 0;
+}
+.emailContactus_CareerPage h2{
+    padding: 0.3rem 0;
+}
+.emailContactus_CareerPage input{
+    border: 1px solid #C0C0C0;
+    padding: 1rem;
+    width: 100%;
+}
+.messageContactus_CareerPage{
+    width: 100%;
+    text-align: start;
+    padding: 0.5rem 0;
+}
+.messageContactus_CareerPage h2{
+    padding: 0.3rem 0;
+}
+.messageContactus_CareerPage textarea{
+    border: 1px solid #C0C0C0;
+    padding: 0.3rem 1rem 1rem 1rem;
+    width: 100%;
+}
+.firstNameContactUs_CareerPage input:focus,
+.phoneContactus_CareerPage input:focus,
+.emailContactus_CareerPage input:focus,
+.messageContactus_CareerPage textarea:focus{
+    outline: none;
+}
+.sendMessageBtn_CareerPage {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    padding-top: 1rem;
+}
+.sendMessageBtn_CareerPage  button{
+    background-color: #262626;
+    color: white;
+}
+
+
+
+.contactusLowerRightDiv_CareerPage{
+    width: 38%;
+    background-color: white;
+    padding: 1rem 2rem;
+    /* height: 100%; */
+}
+.conatctusLowerInnerMainDiv_CareerPage{
+    width: 100%;
+    height: 100%;
+}
+.numberDetailsMainDiv_CareerPage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 33.33%;
+    width: 100%;
+}
+
+
+.button-upload {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: rgba(255, 255, 255); 
+    border: 1.5px dashed #5F5F5F; 
+    border-radius: 4px; 
+    cursor: pointer;
+    font: inherit;
+    min-height: 48px;
+    min-width: 48px;
+  }
+  .button-upload:focus {
+    outline-offset: 4px;
+  }
